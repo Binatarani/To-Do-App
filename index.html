@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>To Do App</title>
+
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/faee62e72a.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Main css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="app-area">
+      <h1>To Do App 2023</h1>
+      <div class="add-task-area">
+        <form id="add-task">
+          <div class="form-group">
+            <input type="text" placeholder="Your task name." id="task" />
+            <button type="submit">Add Task</button>
+          </div>
+        </form>
+        <div id="erorr-div"></div>
+      </div>
+      <div class="task-area">
+        <h2>My Task List</h2>
+        <div id="all-task"></div>
+      </div>
+    </section>
+    <!-- JavaScript js -->
+    <script src="script.js"></script>
+  </body>
+</html>
