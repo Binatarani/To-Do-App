@@ -115,3 +115,12 @@ body {
   font-size: 14px;
   margin-top: 10px;
 }
+@media only screen and (max-width: 767px) {
+  .single-task input {
+    font-size: 12px;
+  }
+  .single-task button {
+    font-size: 7px;
+    margin-left: 3px;
+  }
+}
