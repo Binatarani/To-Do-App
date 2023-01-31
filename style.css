@@ -108,6 +108,50 @@ body {
   background-color: #dc2545;
   color: #fff;
 }
+/* partical js
+ */
+#particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.hero-section {
+  height: 100vh;
+  background-color: rgb(35, 39, 65);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: -1;
+}
+.app-area {
+  width: 650px;
+  text-align: center;
+  z-index: 3;
+}
+.app-area h1 {
+  font-size: 42px;
+}
+.task-area h2 {
+  font-size: 42px;
+}
+
 /* Other css
  */
 #erorr-div p {
